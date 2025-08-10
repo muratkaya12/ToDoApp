@@ -1,0 +1,12 @@
+@import './Colors.css';
+
+.TodoContainer {
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 50vw;
+}

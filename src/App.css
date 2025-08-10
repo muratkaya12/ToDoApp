@@ -1,0 +1,8 @@
+@import './css/Colors.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color1d);
+    color: var(--color2d);
+}

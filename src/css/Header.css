@@ -1,0 +1,38 @@
+.header-cont {
+  height: 70px;
+  text-align: center;
+  border-bottom: 3px solid black;
+  margin-bottom: 20px;
+}
+
+.project-brand {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  margin-top: 10px;
+  left: 25px;
+  gap: 12px;
+  font-size: 30px;
+}
+
+.brand-img {
+  padding-right: 15px;
+  border-right: 3px solid;
+  max-width: 50px;
+}
+
+.dark-or-light-cont {
+  top: 25px;
+  right: 25px;
+  position: absolute;
+}
+
+.dark-or-light-ico {
+  cursor: pointer !important;
+  transition: all 1s ease !important;
+}
+
+.dark-or-light-ico:hover {
+  transform: scale(1.4) !important;
+}

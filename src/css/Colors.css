@@ -1,0 +1,29 @@
+:root {
+    --color1d: rgb(28, 28, 28);
+    --color2d: rgb(210, 204, 204);
+    --color3d: #2e7d32;
+    --color4d: rgb(87, 87, 87);
+}
+
+[data-theme='dark'] {
+    --color1d: #1c1c1c;
+    --color2d: #d2cccc;
+    --color3d: #2e7d32;
+    --color4d: #575757;
+}
+
+[data-theme='light'] {
+    --color1d: #d2cccc;
+    --color2d: #000000;
+    --color3d: #575757;
+    --color4d: #2e7d32;
+}
+
+[data-theme="light"] body {
+    transition: background-color 1s linear, color 1s linear !important;
+}
+
+[data-theme="dark"] body {
+    transition: background-color 1s linear, color 1s linear !important;
+
+}

@@ -1,0 +1,62 @@
+@import './Colors.css';
+
+.Todolist-cont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: var(--color2d);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 12px;
+    margin-bottom: 20px;
+    transition: all 2s;
+}
+
+.Todolist-cont.deleted {
+    background-color: var(--color3d);
+    opacity: 0;
+    overflow: hidden;
+    margin: -25px;
+    transition: all 2s;
+}
+
+.listed-content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 89%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content-buttons {
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.content-ico {
+    font-size: 22px !important;
+    cursor: pointer;
+    background-color: var(--color3d);
+    padding: 2px;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.content-ico:hover {
+    color: var(--color3d);
+    background-color: var(--color2d);
+}
+
+.edit-input {
+    background-color: transparent;
+    color: var(--color2d);
+    padding-left: 2px;
+    width: 89%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--color3d);
+}
